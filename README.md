@@ -1,69 +1,83 @@
-# 🚀 AI Resume Builder
-
 <div align="center">
 
-![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)
-![Vite](https://img.shields.io/badge/Vite-8-purple?style=for-the-badge&logo=vite)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript)
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=34&duration=2500&pause=1000&color=4F8CFF&center=true&vCenter=true&width=900&lines=🚀+AI+Resume+Builder;ATS-Friendly+Resume+Generator;React+%7C+Vite+%7C+JavaScript;Multiple+Templates+%7C+PDF+Export;Professional+Resume+Creation+Platform" />
 
-# AI Resume Builder
+<br>
 
-### Create Professional ATS-Friendly Resumes in Minutes
+<img src="https://img.shields.io/github/stars/Madhumathiitagi/Ai-Resume-Builder?style=for-the-badge" />
+<img src="https://img.shields.io/github/forks/Madhumathiitagi/Ai-Resume-Builder?style=for-the-badge" />
+<img src="https://img.shields.io/github/license/Madhumathiitagi/Ai-Resume-Builder?style=for-the-badge" />
 
-Build, customize, and export modern resumes with multiple templates, ATS scoring, AI-generated summaries, dark mode, and PDF download support.
+<br><br>
+
+<img src="https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react" />
+<img src="https://img.shields.io/badge/Vite-8-purple?style=for-the-badge&logo=vite" />
+<img src="https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript" />
+<img src="https://img.shields.io/badge/GitHub%20Pages-Deployed-success?style=for-the-badge&logo=github" />
 
 </div>
 
 ---
 
-## 🌟 Features
+# 🌟 Overview
 
-### 👤 Personal Information
+AI Resume Builder is a modern resume generation platform built using React and Vite that enables users to create professional ATS-friendly resumes through an interactive and responsive user interface.
+
+The application provides real-time resume preview, dynamic ATS scoring, AI-style summary generation, multiple resume templates, dark/light themes, and one-click PDF export functionality.
+
+---
+
+# ✨ Key Features
+
+## 👤 Personal Information Management
 
 * Name
 * Email
 * Phone Number
 * Location
+* Dynamic Resume Rendering
 
-### 🤖 AI Summary Generator
+## 🤖 AI Summary Generator
 
-* Generates professional resume summaries
-* Skill-based summary suggestions
-* Java, Python, React, SQL, JavaScript support
+* Skill-based summary generation
+* Dynamic professional profile creation
+* Multiple predefined summary datasets
+* Smart keyword detection
 
-### 💻 Skills Management
+## 💻 Skills Management
 
 * Add unlimited skills
-* Remove skills instantly
-* Beautiful skill chips
+* Dynamic skill tags
+* Real-time preview updates
 
-### 🎓 Education Section
+## 🎓 Education Management
 
-* Degree
-* College
-* CGPA
-* Year of Graduation
+* Degree Information
+* College Details
+* CGPA Tracking
+* Graduation Year
 
-### 💼 Experience Section
+## 💼 Experience Management
 
-* Role
-* Company
-* Duration
-* Description
+* Company Details
+* Role Information
+* Duration Tracking
+* Description Support
 
-### 🚀 Projects Section
+## 🚀 Project Showcase
 
 * Project Name
-* Tech Stack
-* Description
-* GitHub Link
+* Technology Stack
+* GitHub Repository Link
+* Project Description
 
-### 📊 ATS Score Calculator
+## 📊 ATS Score Analyzer
 
-* Resume completeness analysis
-* Dynamic ATS score updates
+* Resume Completeness Evaluation
+* Dynamic Score Calculation
+* User Guidance System
 
-### 🎨 Multiple Resume Templates
+## 🎨 Resume Templates
 
 * Modern
 * Corporate
@@ -72,47 +86,80 @@ Build, customize, and export modern resumes with multiple templates, ATS scoring
 * Minimal
 * Executive
 
-### 🌙 Theme Support
+## 🌙 Theme System
 
-* Light Mode
-* Dark Mode
+* Dark Theme
+* Light Theme
+* Instant Theme Switching
 
-### 📄 PDF Export
+## 📄 PDF Export
 
-* One-click Resume Download
-* Professional PDF Generation
-
----
-
-## 🛠 Tech Stack
-
-| Technology  | Usage              |
-| ----------- | ------------------ |
-| React       | Frontend Framework |
-| Vite        | Build Tool         |
-| JavaScript  | Application Logic  |
-| CSS3        | Styling            |
-| html2canvas | PDF Capture        |
-| jsPDF       | PDF Generation     |
+* High Quality Resume Export
+* Professional Formatting
+* One-Click Download
 
 ---
 
-## 📂 Project Structure
+# 🏗️ Technical Architecture
+
+```text
+User Input
+     │
+     ▼
+React Components
+     │
+     ▼
+Centralized Resume State
+     │
+     ▼
+Dynamic Rendering Engine
+     │
+     ├── ATS Calculator
+     ├── AI Summary Generator
+     ├── Template Engine
+     └── Resume Preview
+     │
+     ▼
+PDF Generation Layer
+     │
+     ▼
+Downloadable Resume
+```
+
+---
+
+# ⚙️ Technology Stack
+
+| Category        | Technology   |
+| --------------- | ------------ |
+| Frontend        | React        |
+| Build Tool      | Vite         |
+| Language        | JavaScript   |
+| Styling         | CSS3         |
+| PDF Export      | jsPDF        |
+| DOM Capture     | html2canvas  |
+| Version Control | Git          |
+| Repository      | GitHub       |
+| Deployment      | GitHub Pages |
+
+---
+
+# 📂 Project Structure
 
 ```text
 src
 │
 ├── components
-│   ├── PersonalInfo.jsx
-│   ├── Skills.jsx
+│   ├── ATSCard.jsx
 │   ├── Education.jsx
 │   ├── Experience.jsx
+│   ├── PersonalInfo.jsx
 │   ├── Projects.jsx
-│   ├── ATSCard.jsx
-│   ├── ThemeToggle.jsx
+│   ├── ResumePreview.jsx
+│   ├── Skills.jsx
 │   ├── SummaryGenerator.jsx
 │   ├── TemplateSwitcher.jsx
-│   └── ResumePreview.jsx
+│   └── ThemeToggle.jsx
 │
 ├── templates
 │   ├── ModernTemplate.jsx
@@ -134,7 +181,51 @@ src
 
 ---
 
-## 🚀 Getting Started
+# 🚀 Live Demo
+
+### Website
+
+https://madhumathiitagi.github.io/Ai-Resume-Builder/
+
+---
+
+# 📸 Application Screenshots
+
+Replace these placeholders with actual screenshots.
+
+### 🏠 Home Page
+
+```text
+Add Screenshot Here
+```
+
+### 📄 Resume Preview
+
+```text
+Add Screenshot Here
+```
+
+### 🎨 Template Switcher
+
+```text
+Add Screenshot Here
+```
+
+### 📊 ATS Score Dashboard
+
+```text
+Add Screenshot Here
+```
+
+### 🌙 Dark Mode
+
+```text
+Add Screenshot Here
+```
+
+---
+
+# 🔧 Installation
 
 ### Clone Repository
 
@@ -142,7 +233,7 @@ src
 git clone https://github.com/Madhumathiitagi/Ai-Resume-Builder.git
 ```
 
-### Move Into Project
+### Enter Project
 
 ```bash
 cd Ai-Resume-Builder
@@ -154,52 +245,64 @@ cd Ai-Resume-Builder
 npm install
 ```
 
-### Start Development Server
+### Run Development Server
 
 ```bash
 npm run dev
 ```
 
----
+### Build Production Version
 
-## 📸 Screenshots
-
-Add screenshots of:
-
-* Home Screen
-* Template Switcher
-* ATS Score Section
-* Resume Preview
-* PDF Download
+```bash
+npm run build
+```
 
 ---
 
-## 🔮 Future Enhancements
+# 🎯 Future Enhancements
 
+* OpenAI / Gemini Integration
 * Resume Photo Upload
-* Real AI Integration
+* Multi-page PDF Export
 * Cloud Resume Storage
-* Multi-page PDF Support
+* Authentication System
 * Resume Sharing Links
-* Drag & Drop Sections
 * Cover Letter Generator
+* Resume Analytics Dashboard
+* DOCX Export Support
+* Drag and Drop Resume Sections
 
 ---
 
-## 👨‍💻 Author
+# 💡 Learning Outcomes
 
-**Madhumathi**
+Through this project I gained practical experience in:
 
-Frontend Developer | React Enthusiast | Problem Solver
+* React Component Architecture
+* State Management using Hooks
+* Dynamic Rendering
+* Conditional Rendering
+* PDF Generation
+* GitHub Pages Deployment
+* Frontend Performance Optimization
+* Responsive UI Development
+* Component Reusability
+* Real World Project Structuring
 
 ---
 
-## ⭐ Support
+# 👨‍💻 Author
 
-If you found this project useful:
+### Madhumathi
 
-⭐ Star the repository
+Frontend Developer • React Enthusiast • Problem Solver
 
-🍴 Fork the repository
+---
 
-📢 Share it with others
+<div align="center">
+
+### ⭐ If you found this project useful, consider giving it a star ⭐
+
+Made with ❤️ using React + Vite
+
+</div>
