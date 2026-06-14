@@ -237,7 +237,7 @@ https://madhumathiitagi.github.io/Ai-Resume-Builder/
 
 # 👨‍💻 Developer
 
-## Madhumathi
+## Madhumathi Itagi
 
 Frontend Developer • React Developer • Problem Solver
 
